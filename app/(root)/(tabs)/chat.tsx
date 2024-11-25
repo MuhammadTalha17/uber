@@ -3,7 +3,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 const Chat = () => {
   return (
-    <SafeAreaView className="bg-orange-500">
+    <SafeAreaView>
       <Text>Chat</Text>
     </SafeAreaView>
   );
