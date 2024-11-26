@@ -1,10 +1,10 @@
 import { Text, ScrollView, View, Image } from "react-native";
 import { icons, images } from "../../constants";
-import InputField from "@/Components/InputField";
+import InputField from "@/components/InputField";
 import { useCallback, useState } from "react";
-import CustomButton from "@/Components/CustomButtom";
+import CustomButton from "@/components/CustomButton";
 import { Link, useRouter } from "expo-router";
-import OAuth from "@/Components/OAuth";
+import OAuth from "@/components/OAuth";
 import { useSignIn } from "@clerk/clerk-expo";
 
 const SignIn = () => {
