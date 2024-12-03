@@ -5,7 +5,6 @@ import { useDriverStore } from "@/store";
 import { router } from "expo-router";
 import { FlatList, Text, View } from "react-native";
 
-const names = ["Ali", "Hamza", "Ahsan"];
 const ConfirmRide = () => {
   const { drivers, selectedDriver, setSelectedDriver } = useDriverStore();
 
