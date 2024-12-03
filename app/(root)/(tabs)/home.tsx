@@ -20,9 +20,9 @@ import { useFetch } from "@/lib/fetch";
 
 export default function Page() {
   const { setUserLocation, setDestinationLocation } = useLocationStore();
-  const { user } = useUser();
-  const { signOut } = useAuth();
 
+  const { signOut } = useAuth();
+  const { user } = useUser();
   const { data: recentRides, loading } = useFetch(`/(api)/ride/${user?.id}`);
 
   const [hasPermissions, setHasPermissions] = useState(false);
